@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-feed (0.7.2)
+    jekyll-paginate (1.1.0)
+    minima (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-feed (~> 0.6)
+  jekyll-paginate
+  minima (~> 2.0)
+
+RUBY VERSION
+   ruby 1.9.3p484
+
+BUNDLED WITH
+   1.16.1
