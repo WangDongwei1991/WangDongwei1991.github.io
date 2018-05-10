@@ -1,67 +1,70 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Resources settings
+source:      .
+layouts:     ./_layouts
+timezone:    Asia/Hongkong
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 向死而生
-email: 15620943353@163.com (# -> @)
-description: > # this means to ignore newlines until "baseurl:"
-  起名【向死而生】，是因为人生来就是不断地向死亡靠近。
-  当意识到自己在几十年后即化为尘土，我开始反思：我该如何度过这之后的几十年？我该做些什么？我该留下什么？
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://WangDongwei1991.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: galian123
-github_username: galian123
-site_author: galian.wang
+email: 15629043353@163.com
+author: WangDongwei
+owner_name: WangDongwei
+github_username: WangDongwei1991
+repo: WangDongwei
 
-# Build settings
+#Server
+url: https://wangdongwei1991.github.io/
+github: https://github.com/WangDongwei1991/WangDongwei1991.github.io
+coding: https://github.com/WangDongwei1991/WangDongwei1991.github.io
+baseurl: ""
+
+#Page settings
+future: true
+show_drafts: nil
+lsi: true
+published: false
+safe: false
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
-kramdown:
-  input: GFM
-theme: minima
-# gems:
-plugins:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+excerpt_separator: '<!-- more -->'
 
-permalink: /blog/:year/:month/:day/:title
-timezone: +0800
-incremental: true
+exclude: ['README.md','Manifest.md']
+include: ['robots.txt']
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: wdw
+# Description
+description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+# Keywords
+keywords:
+        - "github"
+        - "bootstrap"
+        - "blog"
+        - "joytou"
+        - "markdown"
+        - "jekyll"
+        - "博客"
+        - "个人博客"
+        - "博客模板"
+        
+#Update configuration
+versioncode: 1
+        #The current versioncode.
+versionname: "1.0.1"
+        #The current versionname.
+#remind: true
+        #Whether to remind you to upgrade the latest version when there is the latest version.
 
-#
-# Pagination config
-#
-# gems:			[jekyll-paginate]
-plugins:			[jekyll-paginate]
-paginate:		10
-paginate_path:		"/page:num/"
+#Others
+#Baidu
+BaiduSiteVerification: "eb6Z6IT34b"
+#Sogou
+SogouSiteVerification: "xhqLIE4SUI"
+#360
+360SiteVerification: "24cc2fe4596dc5c6885b587f8db09733"
+#51La
+51la: "19258191"
+51lamb: "1"
 
-excerpt_separator: <!--more-->
-
-tags_path: /blog/tags/
-category_path: /blog/categories/
-
-leancloud:
-  enable: true
-  app_id: edcgBgescCWpVAgimGW1nbfL-gzGzoHsz
-  app_key: 2c30PCULFMUSgBVNOwNKpqeD
+coding_comments:
+  owner: 'joytou'
+  repo: 'JOYTOU'
+  oauth:
+    client_id: '624713aab28c44e0555b0e8d5d18dece'
+    client_secret: '5d2d45460648bfbd3b9f77bead1a0ac6aa7c3c95'
