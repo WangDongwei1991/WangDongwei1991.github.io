@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 向死而生
-email: 15620943353@163.com (# -> @)
+email: wanglc81#hotmail.com (# -> @)
 description: > # this means to ignore newlines until "baseurl:"
   起名【向死而生】，是因为人生来就是不断地向死亡靠近。
   当意识到自己在几十年后即化为尘土，我开始反思：我该如何度过这之后的几十年？我该做些什么？我该留下什么？
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://WangDongwei1991.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://galian.wang" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: galian123
 github_username: galian123
 site_author: galian.wang
@@ -46,7 +46,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: wdw
+      author: galian.wang
 
 #
 # Pagination config
