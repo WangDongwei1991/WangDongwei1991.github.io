@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: wdw
 date: 2018-5-13 23:29:53
 categories:
 - 杂记
@@ -9,3 +9,6 @@ tags:
 ---
 
 这个博客用来记录如何创建自己的blog
+
+文件位置：/images/001.png 建议放到根目录 容易查找 
+md 里这样调用: ![001](images/001.png)
